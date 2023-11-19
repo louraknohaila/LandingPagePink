@@ -1,0 +1,168 @@
+body{
+    background-image: radial-gradient(circle, #faaca8 30%, #ddd6f3 98%);
+    overflow: hidden;
+}
+.container1{
+    display: flex;
+    justify-content: space-between;
+}
+.liens span{
+    justify-content: space-between;
+    text-align: center;
+}
+.liens{
+    position :relative;
+    top: 19px;
+    left: 45px;
+    background-color: pink;
+    padding-top:8px;
+    padding-bottom:5px;
+    height: 25px;
+    width: 410px;
+    border-radius: 90px;
+    box-shadow: 5px 5px 5px rgb(77, 12, 23);
+}
+.liens span:hover{
+    color : rgb(133, 0, 0);
+    cursor: pointer;
+}
+span{
+     margin: 15px;
+}
+.icons{
+    position :relative;
+    top: 20px;
+    display: flex;
+    right: 25px;
+    
+}
+.icons:hover{
+    cursor: pointer;
+   
+}
+.youtube,.Facebook,.instagram{
+    margin-left: 28px;
+    background-color: rgb(236, 152, 166);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+.instagram:hover{
+    background-color: rgb(133, 0, 0);
+}
+.youtube:hover{
+    background-color: rgb(133, 0, 0);
+}
+.Facebook:hover{
+    background-color: rgb(133, 0, 0);
+}
+.Y{
+    position :relative;
+    left: 6px;
+    top: 6px;
+}
+.F{
+    position :relative;
+    left: 4px;
+    top:5px;
+}
+.I{
+    position :relative;
+    left: 5px;
+    top:4px;
+}
+.logo{
+    position :relative;
+    top: 29px;
+    color : rgb(133, 0, 0);
+    font-size: 25px;
+    font-weight: 600;
+}
+.container2{
+    display: flex;
+    justify-content: space-between;
+}
+.img1{
+   position :relative;
+   top: 35px;
+}
+.img2{
+    position :relative;
+    top: 105px;
+}
+.title ,.texte .botton{
+    margin-bottom: 15px;
+}
+.botton{
+    margin-top: 25px;
+    background-image: radial-gradient(circle, rgba(230, 73, 128, 0.87) 5%, rgba(255, 135, 135, 0.73) 95%);
+    width: 150px;
+    text-align: center;
+    border-radius: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.botton:hover{
+    background-color: red;
+    cursor: pointer;
+}
+.titre{
+    color:#bd6e39;
+    font-size: 32px;
+    font-weight: 500;
+}
+.title{
+     color : rgb(32, 32, 32);
+     font-size: 32px;
+     font-weight: 600;
+}
+.texte{
+    color : rgb(51, 51, 51);
+}
+@media screen and (max-width: 600px) {
+    body{
+        overflow: auto;
+    }
+    .container1 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .liens {
+        margin-top: 10px;
+        width: auto;
+        left: 10px;
+        right: 10px;
+        text-align: center;
+    }
+
+    .icons {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .logo {
+        top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .container2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img1 {
+        top: 20px;
+    }
+
+    .img2 {
+        top: 60px;
+        text-align: center;
+    }
+
+    .botton {
+        margin-top: 15px;
+        margin-left: 95px;
+    }
+}
